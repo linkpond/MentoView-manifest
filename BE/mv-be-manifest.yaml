@@ -77,7 +77,7 @@ spec:
     spec:
       containers: # pod 내부에 실행될 컨테이너 목록
       - name: mv-be-app-container
-        image: 194722398200.dkr.ecr.ap-northeast-2.amazonaws.com/mentoview-repo:be-bc7e5843a04e9cd89e776116340db199a779db27
+        image: 194722398200.dkr.ecr.ap-northeast-2.amazonaws.com/mentoview-repo:be-a36a7126113017a44481a5799965c7f5b464145a
         ports:
           - protocol: TCP
             containerPort: 8080 # 컨테이너 내부에서 APP이 수신하는 포트
