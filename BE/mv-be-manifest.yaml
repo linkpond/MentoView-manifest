@@ -77,7 +77,7 @@ spec:
     spec:
       containers: # pod 내부에 실행될 컨테이너 목록
       - name: mv-be-app-container
-        image: 194722398200.dkr.ecr.ap-northeast-2.amazonaws.com/mentoview-repo:be-3d5c052501adc53e56c50a104eb95a068c625886
+        image: 194722398200.dkr.ecr.ap-northeast-2.amazonaws.com/mentoview-repo:be-e0ec811e81ab46c58ba9fbe0d617ed72fd95d41b
         env:
           - name: AWS_REGION
             value: "ap-northeast-2"
